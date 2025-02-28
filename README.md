@@ -16,18 +16,18 @@ This Streamlit application uses a pre-trained Keras model to classify images as 
 
 1. Clone this repository:
 
-    git clone https://github.com/adamrangwala/ai-human-classifier.git
-    cd ai-human-classifier
+    'git clone https://github.com/adamrangwala/ai-human-classifier.git'
+    'cd ai-human-classifier'
 
 2. Install the required dependencies:
-    pip install -r requirements.txt
+    'pip install -r requirements.txt'
   
 4. Create the following directories and add your files:
 - Create a `model` directory and place your Keras model (`ai_human_classifier.h5`) inside
 - Create a `samples` directory and add sample images (`human_sample.jpg` and `ai_sample.jpg`)
 
 4. Run the Streamlit app:
-    streamlit run app.py
+    'streamlit run app.py'
 
 ### Deploying to Streamlit Cloud
 
